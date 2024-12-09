@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radiance Naturals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Radiance Naturals</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Nature’s Touch for Radiant Skin</h1>
+    <p>Handcrafted skincare solutions enriched with rice and honey.</p>
+    <button onclick="scrollToSection('shop')">Shop Now</button>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="shop">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="lotion.jpg" alt="Rice & Honey Moisturizing Lotion">
+      <h3>Rice & Honey Lotion</h3>
+      <p>Hydrates and nourishes naturally. 50ml for R50.</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Radiance Naturals</h2>
+    <p>At Radiance Naturals, we blend the purity of rice and honey with sustainable practices to create skincare that works.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Radiance Naturals. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
